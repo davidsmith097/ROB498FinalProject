@@ -1,0 +1,15 @@
+resnet101 test accuracy: 72.954036%
+resnet50 test accuracy: 85.538117%
+efficientnetb0 test accuracy: 92.124439%
+efficientnetb3 test accuracy: 82.735426%
+densenet121 test accuracy: 73.822870%
+convnexttiny test accuracy: 71.048206%
+convnextsmall test accuracy: 68.834081%
+
+resnet101 training time: 34.353258 minutes
+resnet50 training time: 30.023043 minutes
+efficientnetb0 training time: 27.980181 minutes
+efficientnetb3 training time: 30.050972 minutes
+densenet121 training time: 31.595737 minutes
+convnexttiny training time: 29.789502 minutes
+convnextsmall training time: 37.100486 minutes
