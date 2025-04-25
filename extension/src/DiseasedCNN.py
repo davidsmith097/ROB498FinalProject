@@ -50,11 +50,6 @@ class DiseasedCNN(nn.Module):
 
         self.layers = nn.Sequential(conv1, relu1, conv2, batchnorm, relu2, pool, flatten, fcn1, relu3, fcn2, softmax).to(DEVICE)
 
-        # print(self.backbone)
-        # print()
-        # print()
-        # print(self.layers)
-
     def forward(self, x):
         x = self.backbone(x).to(DEVICE)
         return self.layers(x).to(DEVICE)
