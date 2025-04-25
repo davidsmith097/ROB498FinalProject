@@ -16,7 +16,7 @@ import time
 import pickle
 import torch.nn.functional
 
-DEVICE = torch.device("cuda")
+DEVICE = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
 class DiseasedCNN(nn.Module):
     def __init__(self):
